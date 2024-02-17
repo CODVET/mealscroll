@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+#game-container {
+  position: relative;
+  width: 2000px;
+  height: 700px;
+  border: 1px solid white;
+}
+
+#player {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: greenyellow;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.obstacle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: darkorchid;
+}
